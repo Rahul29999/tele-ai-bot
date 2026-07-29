@@ -1,1 +1,32 @@
+# Environment variables
+.env
+.env.*
 
+# API Credentials
+credentials.json
+config.json
+secrets.json
+
+# n8n exported credentials
+*.credentials.json
+
+# OpenAI API credentials
+openai-credentials.json
+
+# Telegram Bot credentials
+telegram-credentials.json
+
+# SerpAPI credentials
+serpapi-credentials.json
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
